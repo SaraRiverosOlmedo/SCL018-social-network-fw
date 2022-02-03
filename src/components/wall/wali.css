@@ -1,0 +1,57 @@
+.formulario {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 20px 0 0 0;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #d1d1d1;
+  border-radius: 3px;
+}
+
+.boton {
+  background: #83d394;
+  display: inline-block;
+  padding: 20px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.boton:hover {
+  background: #44a559;
+  color: #fff;
+}
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 20px 0 0 0;
+}
+.user-post{
+  display: flex;
+  flex-direction: column;
+  resize: none;
+  background-color: #95F2E7;
+  border: solid #1673A8 0.063rem;
+  border-radius: 0.813rem;
+  margin: 1rem;
+  width: 20rem;
+  height: auto;
+  padding: 1rem;
+}

@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "estudiando-fw",
+    "estudiandoconreact": "estudiando-fw"
+  },
+  "targets": {}
+}
